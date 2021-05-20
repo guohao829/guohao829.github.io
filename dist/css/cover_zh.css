@@ -1,0 +1,390 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #222;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: black;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: white ;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #eeeeea;
+/*
+  margin: 0;
+  background-image: url(../../bg.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -ms-behavior: url(backgroundsize.min.htc);
+  behavior: url(backgroundsize.min.htc);
+*/
+}
+body {
+  color: black;
+  text-align: justify;
+
+}
+/*
+.main-header {
+  max-width: 100%;
+  text-align: center;
+  height: 200px;
+
+  margin: 0px 0px 0px 0px;
+  padding:40px 0px 40px 40px;
+  background-repeat: no-repeat;
+  background-position: fixed 30%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-color: #165992;
+  -ms-behavior: url(backgroundsize.min.htc);
+  behavior: url(backgroundsize.min.htc);
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='(../../bg.svg',  sizingMethod='scale');
+}
+.main-header img {
+  height: 200px;
+  max-width: 100%;
+}
+ */
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+#site-wrapper {
+  /* display: table; */
+  /* width: 100%;*/
+  text-align: center;
+  height: 230px;
+  padding:40px 0px 0px 0px;
+  margin: 0;
+  background-color: #165992;
+  /*
+  background: url(../../bg.svg) 0px 0px no-repeat fixed;
+*/
+  background-repeat: no-repeat;
+  /*background-position: fixed;*/
+
+  left: 0px;
+  top: 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-behavior: url(backgroundsize.min.htc);
+  behavior: url(backgroundsize.min.htc);
+}
+
+#yaogroup {
+  height: 150px;
+  padding:0px 0px 0px 0px;
+  margin: -40px 0 0 0px;
+  /*background-color: ;*/
+}
+
+.lab_title {
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  font-size:35px
+}
+/*
+ * 1. Header start
+ */
+.head_1 {
+  height: 100px;
+  /* background-color: red; */
+}
+.version{
+  float:right;
+  margin-top:0px;
+  margin-left:0px;
+  text-align:center;
+  }
+.version .active,
+.version .active a{
+  background-color:#fff;
+  color:#000!important;
+}
+.version li{
+  font-family: 'Titillium Web', sans-serif;
+  font-size:14px!important;
+  float:left;
+  width:80px;
+  height:30px;
+  line-height:30px;
+  list-style:none;
+  border:1px solid #fff;
+  }
+.version li a{
+  color:#fff;
+}
+
+
+.head_2_nav {
+  height: 60px;
+  /* background-color: green; */
+}
+
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  color: #A0D5FF;
+  border-bottom: 3px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #A0D5FF;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #A0D5FF;
+  border-bottom-color: #A0D5FF;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    /* float: left; */
+  }
+  .masthead-nav {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
+
+/*
+ * 1. Header end
+ */
+
+
+
+/*
+ * Home Research Highlight
+ */
+.highlight_title {
+  height: 40px;
+  color: #424242;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+}
+.center-vertical {
+  /*position:down;*/
+  top:95%;
+  transform:translateY(0%);
+}
+.home_highlight {
+  /* background-color:#fff; */
+  height: 100%;
+}
+
+#carousel-inner-highlight {
+  height: 100%;
+}
+
+/*
+ * Home News
+ */
+.news_title {
+  color: #424242;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+}
+.home_news {
+  /* background-color:#fff; */
+}
+
+
+/*
+ * People
+ */
+.visiting_card {
+  height: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding:10px 0px 10px 0px;
+  background-color: #eeeeea;
+  /* background-image: url(./images/card_bg.svg);  */
+  background-size:cover;
+}
+
+.keyword {
+  color: #37474f;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
+
+.Ptitle {
+  color: #b71c1c;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+}
+
+.email {
+  color: #424242;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  text-align:left;
+  font-size: 18px;
+}
+
+/* li 不换行，宽度固定 */
+.ul_two {list-style: none;margin: 0px;padding: 0px;}
+.ul_two li {float: left;width: 200px;margin: 0px 20px 10px 0px;overflow: hidden; line-height:1.6em;}
+
+.peoplenameblack {
+  color: #424242;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 800;
+  text-align:center;
+  text-decoration: underline;
+  font-size: 25px;
+}
+.peoplename {
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  text-align:center;
+  font-size: 20px;
+}
+
+/*
+ * Publications
+ */
+.publication {
+  color: #424242;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.iterm{
+  line-height: 24px;
+}
+
+/*
+ * 3. Footer start
+ */
+
+.footer {
+  color: white;
+  background-color: #6A899E;
+  font-family: "Microsoft YaHei";
+}
+.mastfoot {
+  color: white;
+  background-color: #6A899E;
+  text-align:center;
+  font-family: "Microsoft YaHei";
+}
+
+.link_1:hover {
+  color: #b0bec5;
+  text-shadow: none; /* Prevent inheritence from `body` */
+}
+
+/*
+ * 3. Footer end
+ */
+
+.title {
+  color: #424242;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #005997; /* #00796b; */
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+}
+
+.text {
+  color: #424242;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  text-align:left;
+  line-height: 34px;
+}
+.ref {
+  color: #424242;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  text-align:left;
+  line-height: 10px;
+}
+
+.text17 {
+  color: #424242;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  text-align:left;
+  font-size: 17px;
+}
+
+.text_light {
+  color: #e0f2f1;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+}
+
+.fig {
+  color: #424242;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+}
+
+.highlight_1 {
+  color: #0d47a1;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+.white-YaHei {
+  color: white;
+  font-family: "Microsoft YaHei";
+}
+
+.black-YaHei {
+  color: black;
+  font-family: "Microsoft YaHei";
+}
+
+.dark-red-YaHei {
+  color: #880000;
+  font-family: "Microsoft YaHei";
+}
+
+.black-Times {
+  color: black;
+  font-family: "Times New Roman";
+}
+
+.dark-red-Times {
+  color: #880000;
+  font-family: "Times New Roman";
+}
+
